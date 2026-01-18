@@ -4,8 +4,8 @@ import openai
 BOT_TOKEN = "84"
 OPENAI_API_KEY = "sk"
 
-openai.api_key = OPENAI_API_KEY
-bot = telebot.TeleBot(BOT_TOKEN)
+openai.api_key = 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
+bot = telebot.TeleBot(8493964723:AAFEO8FNAymNhgeJMSyjL_-jushXKv0H8yI)
 
 @bot.message_handler(commands=['start'])
 def start(message):
